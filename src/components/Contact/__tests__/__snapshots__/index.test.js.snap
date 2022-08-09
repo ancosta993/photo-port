@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm is rendering matches Snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="contact"
+    >
+      Contact me
+    </h1>
+    <form
+      id="contact-form"
+    >
+      <div>
+        <label
+          for="name"
+        >
+          Name:
+        </label>
+        <input
+          deafultvalue=""
+          name="name"
+          type="text"
+        />
+      </div>
+      <div>
+        <label
+          for="email"
+        >
+          Email address:
+        </label>
+        <input
+          deafultvalue=""
+          name="email"
+          type="email"
+        />
+      </div>
+      <div>
+        <label
+          for="message"
+        >
+          Message:
+        </label>
+        <textarea
+          deafultvalue=""
+          name="message"
+          row="5"
+        />
+      </div>
+      <button
+        data-testid="subBtn"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </section>
+</DocumentFragment>
+`;
